@@ -1,0 +1,272 @@
+/* start body*/
+body{
+background-color: rgb(204, 132, 81);
+color: black ;
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+font-size: 16px;
+line-height: 1,5rem;
+margin: 0;
+padding: 0;
+/* end body*/
+}
+/* start debung*/
+.bg-grey{
+    background-color: rgb(222, 231, 233);
+}
+.bg-red {
+    background-color: red;
+}
+/* end debung*/
+  
+/* start container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* end container */
+
+/* start logo */
+.logo {
+    text-align: center; 
+}
+/* end logo */
+
+/* start menu primer */
+.menu-primer ul{
+    background-color: #333333;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px -1px rgb(222, 231, 233)
+                0 6px 10px 0 rgb(222, 231, 233)
+                o 1px 18px 0 rgb(222, 231, 233)
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d1d1;
+    display: inline-block;
+    margin: 0 -4px
+}
+
+.menu-primer a {
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: black;
+    color: #d1d1d1;
+    text-decoration: none
+}
+
+.menu-prime .active {
+    background-color: black;
+    color: #d1d1d1;
+    text-decoration: none;
+}
+/* end menu primer */
+
+/* start anchor hyperlink*/
+a:link,
+a:visited {
+    columns: #003366; 
+    text-decoration: none;
+}
+a:hover,
+a:active{
+    color: #252b30;
+    text-decoration: underline;
+}
+/* end anchor / hyperlink*/
+
+/* start heading */
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 14px;
+}
+h6{
+    font-size: 13px;
+}
+/* end heading */ 
+
+/* start jumbroton*/
+.jumbroton {
+    background-color: #003366;
+    border: 1px solid  #003366;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbroton h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbroton h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* end jumbroton*/
+
+/* start main */
+.main-home-one{
+  float: left;
+  width: 50%
+}
+
+.main-home-one{
+  .main-home-one{
+    float: left;
+    width: 50%
+}
+  
+
+/* end main */
+
+
+/* start box*/
+
+/* end box*/
+
+/* start wowfaktor*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1567 {
+  background-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 10px;
+  max-width: 30%;
+  min-width: 30%;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.snip1567 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.snip1567 img {
+  max-width: 100%;
+  opacity: 0.75;
+  position: relative;
+  vertical-align: top;
+}
+
+.snip1567 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1567 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  background-color: #000000;
+  top: 0;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  margin: 0;
+  padding: 10px 20px;
+  position: absolute;
+  width: 100%;
+}
+
+.snip1567 p {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 0px 20px;
+  opacity: 0;
+  text-align: right;
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.snip1567 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 54px;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.snip1567 .hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: rgba(236, 188, 46, 0.75);
+  display: flex;
+  font-size: 65px;
+  justify-content: center;
+  opacity: 0;
+}
+
+.snip1567 a {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.snip1567:hover .hover,
+.snip1567.hover .hover {
+  opacity: 1;
+}
+
+.snip1567:hover p,
+.snip1567.hover p {
+  opacity: 1;
+}
+
+.snip1567:hover h3,
+.snip1567.hover h3 {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+.snip1567:hover i,
+.snip1567.hover i {
+  -webkit-transform: translate(-50%, -50%) scale(0.1);
+  transform: translate(-50%, -50%) scale(0.1);
+  opacity: 0;
+}
+/* end wowfaktor*/
